@@ -14,7 +14,7 @@ data = [{
   'apple':{'type': 'THIS', 'serial': '12345'},
   'banana': [1,2,3,4,5],
   'cookie': [{'another_type': 'THAT', 'another_serial': '67890'}],
-  'eclaire': 'Anna'
+  'eclaire': 'And Uh'
   }]
 
 data_flat = []
@@ -28,7 +28,7 @@ for r in data:
 #      'banana_3': '4',
 #      'banana_4': '5',
 #      'cookie': "[{'another_type': 'THAT', 'another_serial': '67890'}]",
-#      'eclaire': 'Anna'}]
+#      'eclaire': 'And Uh'}]
 
 data_flat = []
 for r in data:
